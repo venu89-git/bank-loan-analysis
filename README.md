@@ -151,3 +151,5 @@ Table: Displays detailed loan information in a table format.
 
 Filters: Includes filters for Purpose, Grade, and Verification Status.
 
+## Dashbord Interaction <a href="https://github.com/venu89-git/bank-loan-analysis/blob/main/Screenshot%202025-09-20%20233813.png"
+
