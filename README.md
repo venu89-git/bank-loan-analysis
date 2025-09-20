@@ -1,2 +1,4 @@
 # bank-loan-analysis
-Real-time Tableau project on Bank Loan data, providing insights into loan applications, funded amounts, received payments, and customer trends. Includes interactive dashboards for financial analysis and decision-making.
+## 🎯 Objective
+
+The objective of this project is to analyze bank loan data using Tableau and provide meaningful insights through interactive dashboards. The analysis helps identify loan application trends, funded amounts, repayment behavior, and overall loan performance to support data-driven decision-making in the banking sector.
