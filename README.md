@@ -157,4 +157,148 @@ Filters: Includes filters for Purpose, Grade, and Verification Status.
 
 ## Dashbord Details <a href="https://github.com/venu89-git/bank-loan-analysis/blob/main/Screenshot%202025-09-20%20234605.png"
 
+# About the sql queries
+## Summary KPIs
+The summary section includes queries for key metrics like total applications, funded amounts, and received payments, with month-to-date (MTD) and previous month-to-date (PMTD) comparisons.
+
+
+Total Loan Applications: There are a total of 38,576 loan applications. For the MTD (December), there were 
+
+4,314 applications. For the PMTD (November), there were 
+
+
+
+4,035 applications.
+
+
+Total Funded Amount: The total amount funded is $435,757,075. The MTD funded amount is 
+
+$53,981,425 , while the PMTD amount is 
+
+
+
+$47,754,825.
+
+
+
+
+Total Amount Received: The total amount received is $473,070,933. The MTD amount received is 
+
+$58,074,380 , and the PMTD amount received is 
+
+
+
+$50,132,030.
+
+
+
+
+Average Interest Rate: The average interest rate is 12.05%. The MTD average interest rate is 
+
+12.36% , and the PMTD average interest rate is 
+
+
+
+11.94%.
+
+
+
+
+Average DTI (Debt-to-Income): The average DTI is 13.33%. The MTD average DTI is 
+
+13.67% , and the PMTD average DTI is 
+
+
+13.30%.
+
+
+## Good vs. Bad Loans
+The queries also break down loans into "Good" and "Bad" categories, with "Good Loans" defined as "Fully Paid" or "Current," and "Bad Loans" defined as "Charged Off".
+
+
+
+
+
+- Good Loans:
+
+
+Percentage: 86.18% of all loans are considered "Good".
+
+
+
+
+Applications: There are 33,243 Good Loan applications.
+
+
+
+
+Funded Amount: The total funded amount for good loans is $370,224,850.
+
+
+
+
+Amount Received: The total amount received for good loans is $435,786,170.
+
+
+- Bad Loans:
+
+
+Percentage: 13.82% of all loans are considered "Bad".
+
+
+
+Applications: There are 5,333 Bad Loan applications.
+
+
+
+
+Funded Amount: The total funded amount for bad loans is $65,532,225.
+
+
+
+
+Amount Received: The total amount received for bad loans is $37,284,763.
+
+
+## Loan Status and Overview Queries
+Additional queries provide detailed breakdowns of loan data by status, month, state, term, employee length, purpose, and home ownership.
+
+
+
+
+
+
+Loan Status: Loans are categorized as "Fully Paid," "Charged Off," or "Current". The data provides a count of loans, total amount received, total funded amount, average interest rate, and average DTI for each status. MTD data is also available for total amount received and total funded amount for each loan status.
+
+
+
+
+
+Monthly Overview: Queries break down loan applications, funded amounts, and received amounts by month, showing data for each month from January to December.
+
+
+Other Breakdowns: The document includes queries to view loan data by:
+
+
+State: The total number of applications, funded amount, and received amount are provided for each state.
+
+
+
+Term: Data is available for 36-month and 60-month loan terms.
+
+
+
+Employee Length: Loan metrics are categorized by the applicant's employment length, such as "< 1 year," "1 year," "2 years," and "10+ years".
+
+
+
+Purpose: Loan data is segmented by the purpose of the loan, such as "car," "credit card," "debt consolidation," and "home improvement".
+
+
+
+Home Ownership: The data is also grouped by home ownership status, including "MORTGAGE," "NONE," "OTHER," "OWN," and "RENT".
+
+
+
+
 
